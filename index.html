@@ -27,7 +27,7 @@
       border-radius: 10px;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
       padding: 10px;
-      height: 200px;
+      height: 300px;
       overflow-y: auto;
     }
     .date {
@@ -62,7 +62,7 @@
     .tier-ph { background-color: #fed7aa; color: #111827; }
     .tier-task { background-color: #60a5fa; }
     .legend {
-      position: fixed;
+      position: absolute;
       top: 20px;
       right: 20px;
       background: #ffffff;
@@ -72,6 +72,7 @@
       font-size: 12px;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       max-width: 220px;
+      z-index: 999;
     }
     .legend div {
       display: flex;
@@ -96,7 +97,7 @@
   </style>
 </head>
 <body>
-<img src="https://raw.githubusercontent.com/christiangco92/christiangco92.github.io/main/Website%20-%20Calendar%20banner%20(Black).png" alt="Event Banner" style="max-width: 1200px; width: 100%; height: auto; display: block; margin: 0 auto 20px; border-radius: 12px;" />
+<img src="https://raw.githubusercontent.com/christiango92/bigocalendarJune/main/Website%20-%20Calendar%20banner%20(Black).png" alt="Event Banner" style="max-width: 1200px; width: 100%; height: auto; display: block; margin: 0 auto 20px; border-radius: 12px;" />
 <h1>PH Host Event Calendar – June 2025</h1>
 <div class="legend">
   <strong>Legend</strong>
@@ -114,264 +115,153 @@
 <div class="calendar">
   <div class="day"><div class="date">1 Sun</div>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">2 Mon</div>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">3 Tue</div>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">4 Wed</div>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">5 Thu</div>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">6 Fri</div>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">7 Sat</div>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">8 Sun</div>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">9 Mon</div>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">10 Tue</div>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">11 Wed</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">Valentine CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-d">Step Up Challenge <span class="label">D</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">June Valentines CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
   </div>
   <div class="day"><div class="date">12 Thu</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">Valentine CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-d">Step Up Challenge <span class="label">D</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">June Valentines CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">13 Fri</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">Valentine CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-d">Step Up Challenge <span class="label">D</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">June Valentines CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">14 Sat</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">Valentine CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-d">Step Up Challenge <span class="label">D</span></a>
     <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-ph">June Early Bird <span class="label">PH</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">June Valentines CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">15 Sun</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">June Valentines CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">Valentine CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-d">Step Up Challenge <span class="label">D</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">16 Mon</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">June Valentines CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">Valentine CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-d">Step Up Challenge <span class="label">D</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">17 Tue</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">June Valentines CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67378" class="event tier-s">Valentine CP Ranking <span class="label">S</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-d">Step Up Challenge <span class="label">D</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">18 Wed</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-d">Step Up Challenge <span class="label">D</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">19 Thu</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-d">Step Up Challenge <span class="label">D</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">20 Fri</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-d">Step Up Challenge <span class="label">D</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">21 Sat</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">22 Sun</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">23 Mon</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">24 Tue</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">25 Wed</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">26 Thu</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">27 Fri</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">28 Sat</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">29 Sun</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
   <div class="day"><div class="date">30 Mon</div>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-s">Star List <span class="label">S</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-b">Rising Star Challenger Week <span class="label">B</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66418" class="event tier-task">Ladder Challenge 30–89k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66426" class="event tier-task">Ladder Challenge 10–29k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-task">Ladder Challenge 2–9k <span class="label">Task</span></a>
-    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66492" class="event tier-task">Ladder Challenge 0–1.9k <span class="label">Task</span></a>
+    <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-task">Daily Ladder Challenge <span class="label">Task</span></a>
+    <a href="#" class="event tier-ph">Pinoy Power Hour: USCA <span class="label">PH</span></a>
   </div>
 </div>
 </body>
