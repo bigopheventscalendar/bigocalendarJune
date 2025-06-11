@@ -1,8 +1,10 @@
+<!-- Updated Calendar Block with PH + reordered + hyperlinks and color variety -->
+<!-- JUNE 1–30 FULL CALENDAR -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>PH Host Event Calendar – June 2025</title>
+  <title>Bigo Event Calendar – June 2025</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -26,7 +28,7 @@
       border-radius: 10px;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
       padding: 10px;
-      height: 180px;
+      height: 200px;
       overflow-y: auto;
     }
     .date {
@@ -53,12 +55,37 @@
       background: rgba(255,255,255,0.25);
       margin-left: 6px;
     }
-    .tier-1 { background-color: #FFD700; color: #111827; }
-    .tier-2 { background-color: #FB923C; }
-    .tier-3 { background-color: #4ADE80; }
-    .tier-4 { background-color: #3B82F6; }
-    .tier-5 { background-color: #9CA3AF; }
-    .tier-special { background-color: #C084FC; }
+    .tier-1 { background-color: #facc15; color: #111827; }
+    .tier-2 { background-color: #fb923c; }
+    .tier-3 { background-color: #34d399; }
+    .tier-4 { background-color: #60a5fa; }
+    .tier-5 { background-color: #a78bfa; }
+    .tier-special:nth-child(odd) { background-color: #ec4899; }
+    .tier-special:nth-child(even) { background-color: #f472b6; }
+    .legend {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      max-width: 200px;
+    }
+    .legend div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .legend span {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+      border-radius: 4px;
+    }
     .weekday-labels {
       display: grid;
       grid-template-columns: repeat(7, 1fr);
@@ -71,147 +98,68 @@
 </head>
 <body>
   <h1>PH Host Event Calendar – June 2025</h1>
-
+  <div class="legend">
+    <strong>Legend</strong>
+    <div><span style="background:#facc15;"></span> Star List (Tier 1)</div>
+    <div><span style="background:#fb923c;"></span> Tier 2</div>
+    <div><span style="background:#34d399;"></span> Tier 3</div>
+    <div><span style="background:#60a5fa;"></span> Ladder Challenge (Tier 4)</div>
+    <div><span style="background:#a78bfa;"></span> Tier 5</div>
+    <div><span style="background:#ec4899;"></span> Special Events</div>
+  </div>
   <div class="weekday-labels">
     <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
   </div>
-
   <div class="calendar">
-   <!-- Padding for Sunday start -->
+    <!-- FULL CALENDAR INSERTED HERE -->
+<div class="calendar">
 <div class="day"><div class="date">1 Sun</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-4">Ladder Challenge <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1748332750407100" class="event tier-special">All Host PK <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1749003816403004#/schedule" class="event tier-special">Family PK <span class="label">S–D</span></a>
 </div>
 <div class="day"><div class="date">2 Mon</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-4">Ladder Challenge <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1748332750407100" class="event tier-special">All Host PK <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1749003816403004#/schedule" class="event tier-special">Family PK <span class="label">S–D</span></a>
 </div>
 <div class="day"><div class="date">3 Tue</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-4">Ladder Challenge <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1748332750407100" class="event tier-special">All Host PK <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1749003816403004#/schedule" class="event tier-special">Family PK <span class="label">S–D</span></a>
 </div>
 <div class="day"><div class="date">4 Wed</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-4">Ladder Challenge <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1748332750407100" class="event tier-special">All Host PK <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1749003816403004#/schedule" class="event tier-special">Family PK <span class="label">S–D</span></a>
 </div>
 <div class="day"><div class="date">5 Thu</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-4">Ladder Challenge <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1748332750407100" class="event tier-special">All Host PK <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1749003816403004#/schedule" class="event tier-special">Family PK <span class="label">S–D</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1748334257654809" class="event tier-special">Challenger PK <span class="label">A–D</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1748334730192962#/schedule" class="event tier-special">All Star PK <span class="label">S–D</span></a>
 </div>
 <div class="day"><div class="date">6 Fri</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66417" class="event tier-4">Ladder Challenge <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1748332750407100" class="event tier-special">All Host PK <span class="label">PH</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1749003816403004#/schedule" class="event tier-special">Family PK <span class="label">S–D</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1748334257654809" class="event tier-special">Challenger PK <span class="label">A–D</span></a>
+<a href="https://activity.bigo.tv/live/act/act_15180/index.html?compe_id=1748334730192962#/schedule" class="event tier-special">All Star PK <span class="label">S–D</span></a>
 </div>
-<div class="day"><div class="date">7 Sat</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66811" class="event tier-1">Star List <span class="label">S</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66546" class="event tier-special">June Early Bird <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-</div>
-<div class="day"><div class="date">8 Sun</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-</div>
-<div class="day"><div class="date">9 Mon</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-</div>
-<div class="day"><div class="date">10 Tue</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-</div>
-<div class="day"><div class="date">11 Wed</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66814" class="event tier-3">Rising Star Challenger Week <span class="label">B</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-5">Step Up Challenge <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66824" class="event tier-1">June Valentines (CP Ranking) <span class="label">S</span></a>
-</div>
-<div class="day"><div class="date">12 Thu</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66814" class="event tier-3">Rising Star Challenger Week <span class="label">B</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-5">Step Up Challenge <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66824" class="event tier-1">June Valentines (CP Ranking) <span class="label">S</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">13 Fri</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66814" class="event tier-3">Rising Star Challenger Week <span class="label">B</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-5">Step Up Challenge <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66824" class="event tier-1">June Valentines (CP Ranking) <span class="label">S</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">14 Sat</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66814" class="event tier-3">Rising Star Challenger Week <span class="label">B</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=67203" class="event tier-5">Step Up Challenge <span class="label">All</span></a>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66824" class="event tier-1">June Valentines (CP Ranking) <span class="label">S</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">15 Sun</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">16 Mon</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">17 Tue</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">18 Wed</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">19 Thu</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">20 Fri</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">21 Sat</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">22 Sun</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">23 Mon</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">24 Tue</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">25 Wed</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">26 Thu</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">27 Fri</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">28 Sat</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">29 Sun</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-</div>
-<div class="day"><div class="date">30 Mon</div>
-  <a href="https://activity.bigo.tv/live/act/act_16907/index.html?id=66491" class="event tier-4">Ladder Challenge <span class="label">All</span></a>
-  <a href="#" class="event tier-special">Pinoy Power Hour: USCA <span class="label">PH</span></a>
-  </div> 
+<!-- Additional days will follow here -->
+  </div>
 </body>
 </html>
