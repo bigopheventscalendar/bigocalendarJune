@@ -69,19 +69,7 @@
       background: #66e49c;
       color: #111827;
     }
-    .legend {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      background: #ffffff;
-      border: 1px solid #e5e7eb;
-      border-radius: 8px;
-      padding: 12px;
-      font-size: 12px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      max-width: 220px;
-      z-index: 999;
-    }
+    
     .legend div {
       display: flex;
       align-items: center;
@@ -95,35 +83,35 @@
       border-radius: 4px;
     }
   
-    @media (max-width: 768px) {
-      .legend {
-        position: relative;
-        top: 0;
-        right: 0;
-        margin: 0 auto 20px auto;
-        width: 90%;
-        max-width: 100%;
-        display: block;
-      }
 
-      .calendar {
-        margin-left: 0 !important;
-      }
-    }
+
+
+
+
+
+.legend-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.legend {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 340px;
+  width: 100%;
+}
 
 </style>
 </head>
 <body>
   <h1>PH Host Event Calendar – June 2025</h1>
-  <div class="legend">
-    <strong>Legend</strong>
-    <div><span style="background:#facc15;"></span> S: 150,000+</div>
-    <div><span style="background:#fb923c;"></span> A: 90,000–149,999</div>
-    <div><span style="background:#0ffc63;"></span> B: 30,000–89,999</div>
-    <div><span style="background:#66e49c;"></span> C-D: 2,000–29,999</div>
-    <div><span style="background:#fed7aa;"></span> PH Hosts – Free for all</div>
-    <div><span style="background:linear-gradient(to right, #0ffc63, #bbf7d0, #b7f7ce);"></span> Daily Ladder Challenge (B–D)</div>
-    <div><span style="background:#66e49c;"></span> Step Up Challenge (C–D)</div>
+  
+    <div><span style="background:#fb923c;"></span> </div>
   </div>
   <div class="calendar" style="margin-left: 40px;">
 <div class="day">
@@ -329,5 +317,18 @@
 </div>
 
   </div>
+  <div class="legend-below"></div>
+  </div>
+<div class="legend-row">
+<div class="legend">
+  <strong>Legend</strong>
+  <div><span style="background:#facc15;"></span> S: 150,000+</div>
+  <div><span style="background:#fb923c;"></span> A: 90,000–149,999</div>
+  <div><span style="background:#0ffc63;"></span> B: 30,000–89,999</div>
+  <div><span style="background:#66e49c;"></span> C–D: 2,000–29,999</div>
+  <br>
+  <div><span style="background:#fed7aa;"></span> PH: PH Hosts – Free for all</div>
+</div>
+</div></div></div>
 </body>
 </html>
