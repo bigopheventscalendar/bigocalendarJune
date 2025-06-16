@@ -62,11 +62,11 @@
     .tier-d { background-color: #b7f7ce; color: #111827; }
     .tier-ph { background-color: #fed7aa; color: #111827; }
     .tier-ladder {
-      background: linear-gradient(to right, #0ffc63, #bbf7d0, #b7f7ce);
+      background: linear-gradient(to right, #0ffc63, #66e49c, #bbf7d0);
       color: #111827;
     }
     .tier-stepup {
-      background: linear-gradient(to right, #bbf7d0, #b7f7ce);
+      background: #66e49c;
       color: #111827;
     }
     .legend {
@@ -94,6 +94,17 @@
       margin-right: 8px;
       border-radius: 4px;
     }
+    @media (max-width: 768px) {
+  .legend {
+    position: static;
+    margin: 0 auto 20px auto;
+    width: 90%;
+    max-width: 100%;
+  }
+  .calendar {
+    margin-left: 0 !important;
+  }
+}
   </style>
 </head>
 <body>
@@ -103,10 +114,10 @@
     <div><span style="background:#facc15;"></span> S: 150,000+</div>
     <div><span style="background:#fb923c;"></span> A: 90,000–149,999</div>
     <div><span style="background:#0ffc63;"></span> B: 30,000–89,999</div>
-    <div><span style="background:#bbf7d0;"></span> C-D: 2,000–29,999</div>
+    <div><span style="background:#66e49c;"></span> C-D: 2,000–29,999</div>
     <div><span style="background:#fed7aa;"></span> PH Hosts – Free for all</div>
     <div><span style="background:linear-gradient(to right, #0ffc63, #bbf7d0, #b7f7ce);"></span> Daily Ladder Challenge (B–D)</div>
-    <div><span style="background:linear-gradient(to right, #bbf7d0, #b7f7ce);"></span> Step Up Challenge (C–D)</div>
+    <div><span style="background:#66e49c;"></span> Step Up Challenge (C–D)</div>
   </div>
   <div class="calendar" style="margin-left: 40px;">
 <div class="day">
