@@ -94,18 +94,24 @@
       margin-right: 8px;
       border-radius: 4px;
     }
+  
     @media (max-width: 768px) {
-  .legend {
-    position: static;
-    margin: 0 auto 20px auto;
-    width: 90%;
-    max-width: 100%;
-  }
-  .calendar {
-    margin-left: 0 !important;
-  }
-}
-  </style>
+      .legend {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: 0 auto 20px auto;
+        width: 90%;
+        max-width: 100%;
+        display: block;
+      }
+
+      .calendar {
+        margin-left: 0 !important;
+      }
+    }
+
+</style>
 </head>
 <body>
   <h1>PH Host Event Calendar – June 2025</h1>
